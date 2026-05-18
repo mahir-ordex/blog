@@ -1,0 +1,438 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "gotrue",
+        "description": "gotrue",
+        "isExtraImport": true,
+        "detail": "gotrue",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.model",
+        "description": "models.model",
+        "isExtraImport": true,
+        "detail": "models.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "engine_file",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "JWTServices",
+        "importPath": "backend.app.utils.jwt",
+        "description": "backend.app.utils.jwt",
+        "isExtraImport": true,
+        "detail": "backend.app.utils.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "LoginBody",
+        "kind": 6,
+        "importPath": "backend.app.apis.auth.auth",
+        "description": "backend.app.apis.auth.auth",
+        "peekOfCode": "class LoginBody(BaseModel):\n    email: str | None = None\n    password: str | None = None\n@router.post(\"/login\")\nasync def login(body: LoginBody = Body(...), db = Depends(get_db)):\n    try:\n        email = body.email\n        password = body.password\n        if not email:\n            raise HTTPException(status_code=400,detail=\"enter valid email\")",
+        "detail": "backend.app.apis.auth.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.apis.auth.auth",
+        "description": "backend.app.apis.auth.auth",
+        "peekOfCode": "router = APIRouter()\nclass LoginBody(BaseModel):\n    email: str | None = None\n    password: str | None = None\n@router.post(\"/login\")\nasync def login(body: LoginBody = Body(...), db = Depends(get_db)):\n    try:\n        email = body.email\n        password = body.password\n        if not email:",
+        "detail": "backend.app.apis.auth.auth",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "backend.app.models.model",
+        "description": "backend.app.models.model",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True,autoincrement=True)\n    name = Column(String, nullable=False)\n    email = Column(String, unique=True, nullable=False)\n    password = Column(String, nullable=False)\n    bio = Column(String)\n    role = Column(String)\n    blogs = relationship(\"Blog\", back_populates=\"author\", cascade=\"all, delete-orphan\")\nclass Blog(Base):",
+        "detail": "backend.app.models.model",
+        "documentation": {}
+    },
+    {
+        "label": "Blog",
+        "kind": 6,
+        "importPath": "backend.app.models.model",
+        "description": "backend.app.models.model",
+        "peekOfCode": "class Blog(Base):\n    __tablename__ = \"blogs\"\n    id = Column(Integer, primary_key=True,autoincrement=True)\n    title = Column(String, nullable=False)\n    description = Column(String, nullable=False)\n    user_id = Column(Integer, ForeignKey(\"users.id\"), nullable=False)\n    author = relationship(\"User\", back_populates=\"blogs\")\nclass Comments(Base):\n    __tablename__ = \"comments\"\n    id = Column(Integer,primary_key=True, autoincrement=True)",
+        "detail": "backend.app.models.model",
+        "documentation": {}
+    },
+    {
+        "label": "Comments",
+        "kind": 6,
+        "importPath": "backend.app.models.model",
+        "description": "backend.app.models.model",
+        "peekOfCode": "class Comments(Base):\n    __tablename__ = \"comments\"\n    id = Column(Integer,primary_key=True, autoincrement=True)\n    text = Column(String)\n    blog_id = Column(Integer, ForeignKey(\"blogs.id\"),nullable=False)",
+        "detail": "backend.app.models.model",
+        "documentation": {}
+    },
+    {
+        "label": "JWTServices",
+        "kind": 6,
+        "importPath": "backend.app.utils.jwt",
+        "description": "backend.app.utils.jwt",
+        "peekOfCode": "class JWTServices:\n    @staticmethod\n    def verift_token(token: str):\n        try:\n            secret: Optional[str] = os.getenv(\"JWT_SECRET\")\n            if secret is None:\n                raise ValueError(\"JWT_SECRET is not set\")\n            user = jwt.decode(token, secret, algorithms=[\"HS256\"])\n            return user\n        except JWTError as e:",
+        "detail": "backend.app.utils.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "def get_db():\n\tdb: Session = SessionLocal()\n\ttry:\n\t\tyield db\n\tfinally:\n\t\tdb.close()",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine_file",
+        "kind": 5,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "engine_file = create_engine(\"sqlite:///example.db\", echo=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine_file)\nBase = declarative_base()\ndef get_db():\n\tdb: Session = SessionLocal()\n\ttry:\n\t\tyield db\n\tfinally:\n\t\tdb.close()",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine_file)\nBase = declarative_base()\ndef get_db():\n\tdb: Session = SessionLocal()\n\ttry:\n\t\tyield db\n\tfinally:\n\t\tdb.close()",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n\tdb: Session = SessionLocal()\n\ttry:\n\t\tyield db\n\tfinally:\n\t\tdb.close()",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "read_root",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def read_root():\n    return {\"message\": \"Blog API is running\"}\nif __name__ == \"__main__\":\n    uvicorn.run(\"main:app\", host=\"127.0.0.1\", port=8000, reload=True)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\", \"http://127.0.0.1:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n@app.get(\"/\")\ndef read_root():",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]
