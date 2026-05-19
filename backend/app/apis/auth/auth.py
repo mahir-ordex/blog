@@ -20,7 +20,7 @@ class SignupBody(BaseModel):
     password: str | None = None
 
 @router.post("/login")
-async def login(body: LoginBody = Body(...), db = Depends(get_db)):
+async def login(body: LoginBody = Body(...), db:Session = Depends(get_db)):
     try:
         email = body.email
         password = body.password
