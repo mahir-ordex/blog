@@ -32,6 +32,22 @@
         "documentation": {}
     },
     {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -49,10 +65,42 @@
     },
     {
         "label": "Session",
-        "importPath": "gotrue",
-        "description": "gotrue",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "gotrue",
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -121,6 +169,46 @@
         "documentation": {}
     },
     {
+        "label": "JWTServices",
+        "importPath": "backend.app.utils.jwt",
+        "description": "backend.app.utils.jwt",
+        "isExtraImport": true,
+        "detail": "backend.app.utils.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -161,38 +249,6 @@
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -223,22 +279,6 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
         "documentation": {}
     },
     {
@@ -296,7 +336,16 @@
         "kind": 6,
         "importPath": "backend.app.apis.auth.auth",
         "description": "backend.app.apis.auth.auth",
-        "peekOfCode": "class LoginBody(BaseModel):\n    email: str | None = None\n    password: str | None = None\n@router.post(\"/login\")\nasync def login(body: LoginBody = Body(...), db = Depends(get_db)):\n    try:\n        email = body.email\n        password = body.password\n        if not email:\n            raise HTTPException(status_code=400,detail=\"enter valid email\")",
+        "peekOfCode": "class LoginBody(BaseModel):\n    email: str | None = None\n    password: str | None = None\nclass SignupBody(BaseModel):\n    name: str | None = None\n    email: str | None = None\n    password: str | None = None\n@router.post(\"/login\")\nasync def login(body: LoginBody = Body(...), db:Session = Depends(get_db)):\n    try:",
+        "detail": "backend.app.apis.auth.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SignupBody",
+        "kind": 6,
+        "importPath": "backend.app.apis.auth.auth",
+        "description": "backend.app.apis.auth.auth",
+        "peekOfCode": "class SignupBody(BaseModel):\n    name: str | None = None\n    email: str | None = None\n    password: str | None = None\n@router.post(\"/login\")\nasync def login(body: LoginBody = Body(...), db:Session = Depends(get_db)):\n    try:\n        email = body.email\n        password = body.password\n        if not email:",
         "detail": "backend.app.apis.auth.auth",
         "documentation": {}
     },
@@ -305,7 +354,7 @@
         "kind": 5,
         "importPath": "backend.app.apis.auth.auth",
         "description": "backend.app.apis.auth.auth",
-        "peekOfCode": "router = APIRouter()\nclass LoginBody(BaseModel):\n    email: str | None = None\n    password: str | None = None\n@router.post(\"/login\")\nasync def login(body: LoginBody = Body(...), db = Depends(get_db)):\n    try:\n        email = body.email\n        password = body.password\n        if not email:",
+        "peekOfCode": "router = APIRouter()\nclass LoginBody(BaseModel):\n    email: str | None = None\n    password: str | None = None\nclass SignupBody(BaseModel):\n    name: str | None = None\n    email: str | None = None\n    password: str | None = None\n@router.post(\"/login\")\nasync def login(body: LoginBody = Body(...), db:Session = Depends(get_db)):",
         "detail": "backend.app.apis.auth.auth",
         "documentation": {}
     },

@@ -22,11 +22,19 @@ class JWTServices:
             secret: Optional[str] = os.getenv("JWT_SECRET")
             if secret is None:
                 raise ValueError("JWT_SECRET is not set")
+            exp_env = os.getenv("JWT_EXP")
+            if exp_env is None:
+                raise ValueError("JWT_EXP is not set")
+            try:
+                exp_hours = float(exp_env)
+            except ValueError:
+                raise ValueError("JWT_EXP must be a number")
 
             payload: dict[str, Any] = {
                 "id": user.id,
                 "email": user.email,
-                "exp": datetime.now(timezone.utc) + timedelta(hours=1),
+                "role":user.role,
+                "exp": datetime.now(timezone.utc) + timedelta(hours=exp_hours),
             }
             return jwt.encode(payload, secret, algorithm="HS256")
 
