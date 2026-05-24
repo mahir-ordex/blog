@@ -1,8 +1,12 @@
 import os
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any, Optional
 
+from dotenv import load_dotenv
 from jose import JWTError, jwt
+
+load_dotenv(dotenv_path=Path(__file__).resolve().parents[2] / ".env")
 
 class JWTServices:
     @staticmethod

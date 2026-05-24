@@ -3,9 +3,9 @@ from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
 import bcrypt
-from models.model import User
+from app.models.model import User
 from db import get_db
-from backend.app.utils.jwt import JWTServices
+from app.utils.jwt import JWTServices
 
 router = APIRouter()
 

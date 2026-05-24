@@ -3,6 +3,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from db import Base, engine_file
+from app.apis.users.users import route as users_router
+from app.apis.auth.auth import router as auth_router
 
 
 @asynccontextmanager
@@ -21,6 +23,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+app.include_router(auth_router)
+app.include_router(users_router)
 
 @app.get("/")
 def read_root():

@@ -1,7 +1,7 @@
 from typing import List, Optional
 
 from fastapi import Request, HTTPException
-from backend.app.utils.jwt import JWTServices
+from app.utils.jwt import JWTServices
 
 async def verify_auth(request: Request, required_roles: Optional[List[str]] = None):
     try:

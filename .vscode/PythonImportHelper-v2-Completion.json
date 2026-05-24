@@ -32,6 +32,46 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -61,6 +101,22 @@
         "description": "fastapi.responses",
         "isExtraImport": true,
         "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -112,6 +168,14 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "bcrypt",
         "kind": 6,
         "isExtraImport": true,
@@ -122,10 +186,26 @@
     },
     {
         "label": "User",
-        "importPath": "models.model",
-        "description": "models.model",
+        "importPath": "app.models.model",
+        "description": "app.models.model",
         "isExtraImport": true,
-        "detail": "models.model",
+        "detail": "app.models.model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.model",
+        "description": "app.models.model",
+        "isExtraImport": true,
+        "detail": "app.models.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
         "documentation": {}
     },
     {
@@ -162,18 +242,34 @@
     },
     {
         "label": "JWTServices",
-        "importPath": "backend.app.utils.jwt",
-        "description": "backend.app.utils.jwt",
+        "importPath": "app.utils.jwt",
+        "description": "app.utils.jwt",
         "isExtraImport": true,
-        "detail": "backend.app.utils.jwt",
+        "detail": "app.utils.jwt",
         "documentation": {}
     },
     {
         "label": "JWTServices",
-        "importPath": "backend.app.utils.jwt",
-        "description": "backend.app.utils.jwt",
+        "importPath": "app.utils.jwt",
+        "description": "app.utils.jwt",
         "isExtraImport": true,
-        "detail": "backend.app.utils.jwt",
+        "detail": "app.utils.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -206,6 +302,22 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "require_both",
+        "importPath": "app.middleware.auth",
+        "description": "app.middleware.auth",
+        "isExtraImport": true,
+        "detail": "app.middleware.auth",
+        "documentation": {}
+    },
+    {
+        "label": "require_user",
+        "importPath": "app.middleware.auth",
+        "description": "app.middleware.auth",
+        "isExtraImport": true,
+        "detail": "app.middleware.auth",
         "documentation": {}
     },
     {
@@ -282,6 +394,22 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "JWTError",
         "importPath": "jose",
         "description": "jose",
@@ -323,6 +451,22 @@
         "documentation": {}
     },
     {
+        "label": "route",
+        "importPath": "app.apis.users.users",
+        "description": "app.apis.users.users",
+        "isExtraImport": true,
+        "detail": "app.apis.users.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.apis.auth.auth",
+        "description": "app.apis.auth.auth",
+        "isExtraImport": true,
+        "detail": "app.apis.auth.auth",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -356,6 +500,60 @@
         "description": "backend.app.apis.auth.auth",
         "peekOfCode": "router = APIRouter()\nclass LoginBody(BaseModel):\n    email: str | None = None\n    password: str | None = None\nclass SignupBody(BaseModel):\n    name: str | None = None\n    email: str | None = None\n    password: str | None = None\n@router.post(\"/login\")\nasync def login(body: LoginBody = Body(...), db:Session = Depends(get_db)):",
         "detail": "backend.app.apis.auth.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateUserBody",
+        "kind": 6,
+        "importPath": "backend.app.apis.users.users",
+        "description": "backend.app.apis.users.users",
+        "peekOfCode": "class UpdateUserBody(BaseModel):\n    name: str | None = None\n    email: str | None = None\n    bio: str | None = None\n    role: str | None = None\n@route.get(\"/{user_id}\")\ndef get_user_by_id(user_id: int, req: Request, db: Session = Depends(get_db), user: Dict[str, Any] = Depends(require_both)) -> Dict[str, Any]:\n    try:\n        current_user = req.state.user\n        if not current_user:",
+        "detail": "backend.app.apis.users.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_id",
+        "kind": 2,
+        "importPath": "backend.app.apis.users.users",
+        "description": "backend.app.apis.users.users",
+        "peekOfCode": "def get_user_by_id(user_id: int, req: Request, db: Session = Depends(get_db), user: Dict[str, Any] = Depends(require_both)) -> Dict[str, Any]:\n    try:\n        current_user = req.state.user\n        if not current_user:\n            raise HTTPException(status_code=403, detail=\"Unauthorized Request User!\")\n        db_user = db.query(User).filter(User.id == user_id).first()\n        if not db_user:\n            raise HTTPException(status_code=404, detail=\"User not found\")\n        return {\n            \"id\": db_user.id,",
+        "detail": "backend.app.apis.users.users",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "backend.app.apis.users.users",
+        "description": "backend.app.apis.users.users",
+        "peekOfCode": "def update_user(req: Request, payload: UpdateUserBody = Body(...), user: Dict[str, Any] = Depends(require_both), db: Session = Depends(get_db)) -> Dict[str, Any]:\n    try:\n        current_user = req.state.user\n        data = payload.model_dump(exclude_unset=True)\n        if not current_user:\n            raise HTTPException(status_code=403, detail=\"Unauthorized Request User!\")\n        db_user = db.query(User).filter(User.id == current_user[\"id\"]).first()\n        if not db_user:\n            raise HTTPException(404, \"User not found\")\n        if \"email\" in data and data[\"email\"] != db_user.email:",
+        "detail": "backend.app.apis.users.users",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "backend.app.apis.users.users",
+        "description": "backend.app.apis.users.users",
+        "peekOfCode": "def delete_user(req: Request, db: Session = Depends(get_db), current_user: Dict[str, Any] = Depends(require_user)) -> JSONResponse:\n    try:\n        if not current_user:\n            raise HTTPException(status_code=403, detail=\"Unauthorized User!\")\n        db.query(User).filter(User.id == current_user[\"id\"]).delete(synchronize_session=False)\n        db.commit()\n        return JSONResponse(status_code=200, content={\"success\": True})\n    except HTTPException:\n        raise\n    except Exception as e:",
+        "detail": "backend.app.apis.users.users",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_by_id",
+        "kind": 2,
+        "importPath": "backend.app.apis.users.users",
+        "description": "backend.app.apis.users.users",
+        "peekOfCode": "def update_user_by_id(user_id:int,req:Request,payload:UpdateUserBody=Body(...),db:Session=Depends(get_db)) -> Dict[str, Any]:\n    try:\n        current_user = req.state.user\n        if not current_user:\n            raise HTTPException(status_code=403,detail=\"Unathorize Request\")\n        if \"admin\" is not str(current_user.role):\n            raise HTTPException(status_code=403,detail=str(\"Only Admin!\"))\n        data = payload.model_dump(exclude_unset=True)\n        user = db.query(User).filter(User.id == user_id).first()\n        if not user:",
+        "detail": "backend.app.apis.users.users",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "kind": 5,
+        "importPath": "backend.app.apis.users.users",
+        "description": "backend.app.apis.users.users",
+        "peekOfCode": "route = APIRouter(prefix=\"/users\", tags=[\"users\"])\nclass UpdateUserBody(BaseModel):\n    name: str | None = None\n    email: str | None = None\n    bio: str | None = None\n    role: str | None = None\n@route.get(\"/{user_id}\")\ndef get_user_by_id(user_id: int, req: Request, db: Session = Depends(get_db), user: Dict[str, Any] = Depends(require_both)) -> Dict[str, Any]:\n    try:\n        current_user = req.state.user",
+        "detail": "backend.app.apis.users.users",
         "documentation": {}
     },
     {
@@ -444,7 +642,7 @@
         "kind": 5,
         "importPath": "backend.main",
         "description": "backend.main",
-        "peekOfCode": "app = FastAPI(lifespan=lifespan)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\", \"http://127.0.0.1:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n@app.get(\"/\")\ndef read_root():",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\", \"http://127.0.0.1:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(auth_router)\napp.include_router(users_router)",
         "detail": "backend.main",
         "documentation": {}
     },
